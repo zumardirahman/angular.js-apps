@@ -1,0 +1,1 @@
+https://dekontaminasi.com/api/id/covid19/hospitals

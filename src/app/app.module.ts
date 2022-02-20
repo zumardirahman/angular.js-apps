@@ -7,12 +7,14 @@ import { RegisterComponent } from './auth/register/register.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialDesign } from './material/material';
+import { ForgotComponent } from './auth/forgot/forgot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ForgotComponent
   ],
   imports: [
     BrowserModule,
