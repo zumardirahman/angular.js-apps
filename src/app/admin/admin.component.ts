@@ -22,6 +22,11 @@ export class AdminComponent implements OnInit {
       url: '/admin/dashboard'
     },
     {
+      name: 'Produk',
+      icon: 'list',
+      url: '/admin/product'
+    },
+    {
       group: 'Menu Group',
       children: [
         {
