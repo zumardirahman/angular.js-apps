@@ -6,8 +6,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import {MatCardModule} from '@angular/material/card';
+import { MaterialDesign } from './material/material';
 
 @NgModule({
   declarations: [
@@ -19,8 +18,7 @@ import {MatCardModule} from '@angular/material/card';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule,
-    MatCardModule
+    MaterialDesign
   ],
   providers: [],
   bootstrap: [AppComponent]
