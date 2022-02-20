@@ -27,7 +27,7 @@ const routes: Routes =[
   imports: [
     CommonModule,
     RouterModule.forChild(routes), //gunakan child krna ada module diatasnya
-    MaterialDesign, //gunanya agar tidak mengimport lagi
+    MaterialDesign, //gunanya agar tidak mengimport lagi, caranya bikin folder material lalu file material.ts
   ]
 })
 export class AdminModule { }
