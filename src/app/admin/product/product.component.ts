@@ -27,4 +27,10 @@ export class ProductComponent implements OnInit {
       console.log(data)
     })
   }
+  getBook(idBook:number) {
+    this.api.get('books/'+idBook).subscribe((data) => {
+      this.book = data;
+      console.log(data)
+    })
+  }
 }
