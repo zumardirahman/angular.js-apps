@@ -30,5 +30,5 @@
 </div>
 <div mat-dialog-actions>
     <button mat-button mat-dialog-close>Batal</button>
-    <button mat-button (click)="saveData()">Simpan</button>
+    <button mat-button (click)="saveData()" [disabled]="loading">{{loading ? 'Menyimpan..':'Simpan'}} </button>
 </div>

@@ -20,4 +20,12 @@ post(link: string,data:string){
     return this.http.post(this.serverUrl+link,data);
 }
 
+put(link: string,data:string){
+    return this.http.put(this.serverUrl+link,data);
+}
+
+delete(link: string){
+    return this.http.delete(this.serverUrl+link);
+}
+
 }
